@@ -1,30 +1,3 @@
-// var Student = Backbone.Model.extend ({
- 
-//   defaults: {
-//     name: '',
-//     location: 'Atlanta',
-//     awesome: true
-//   },
- 
-//   idAttribute: "_id",
- 
-//   initialize: function () {
-//     var name = this.get('name');
-//     console.log( name + ' has been added to your list of students.');
-//   }
- 
-// });
- 
-// var JSStudents = Backbone.Collection.extend ({
- 
-//   model: Student,
-//   url: "http://tiy-atl-fe-server.herokuapp.com/collections/students"
- 
-// });
- 
-// Student Collection Instance
-
-
 var Hackers = Backbone.Model.extend ({
 
   defaults: {
